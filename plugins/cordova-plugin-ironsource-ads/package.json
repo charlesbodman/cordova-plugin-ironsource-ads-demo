@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-ironsource-ads",
+        "scope": null,
+        "escapedName": "cordova-plugin-ironsource-ads",
+        "name": "cordova-plugin-ironsource-ads",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/charliebodman/Documents/Projects/cordova-plugin-ironsource-ads-demo/hello"
+    ]
+  ],
+  "_from": "cordova-plugin-ironsource-ads@latest",
+  "_id": "cordova-plugin-ironsource-ads@0.0.21",
+  "_inCache": true,
+  "_location": "/cordova-plugin-ironsource-ads",
+  "_nodeVersion": "7.2.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-ironsource-ads-0.0.21.tgz_1511379901238_0.6887071416713297"
+  },
+  "_npmUser": {
+    "name": "charlesbodman",
+    "email": "charlesbodman@gmail.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-ironsource-ads",
+    "scope": null,
+    "escapedName": "cordova-plugin-ironsource-ads",
+    "name": "cordova-plugin-ironsource-ads",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-ironsource-ads/-/cordova-plugin-ironsource-ads-0.0.21.tgz",
+  "_shasum": "961374505dfcc39eca387ad6fbb963a08fea5616",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-ironsource-ads",
+  "_where": "/Users/charliebodman/Documents/Projects/cordova-plugin-ironsource-ads-demo/hello",
+  "author": {
+    "name": "Charles Bodman"
+  },
+  "bugs": {
+    "url": "https://github.com/charlesbodman/cordova-plugin-ironsource-ads/issues"
+  },
+  "dependencies": {},
+  "description": "Ironsource ads for cordova based development",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "961374505dfcc39eca387ad6fbb963a08fea5616",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-ironsource-ads/-/cordova-plugin-ironsource-ads-0.0.21.tgz"
+  },
+  "gitHead": "8c4b0cb004b4ae75057adca19a9a07d927a448e8",
+  "homepage": "https://github.com/charlesbodman/cordova-plugin-ironsource-ads",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "charlesbodman",
+      "email": "charlesbodman@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-ironsource-ads",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesbodman/cordova-plugin-ironsource-ads.git"
+  },
+  "scripts": {},
+  "version": "0.0.21"
+}
