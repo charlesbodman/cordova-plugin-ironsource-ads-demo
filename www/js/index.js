@@ -52,10 +52,14 @@ var app = {
         document.getElementById('clearConsoleButton').addEventListener('touchend', this.clearConsole.bind(this));
     },
 
-    receivedEvent: function (event) {
+    log:function(text){
         var consoleOutput = this.consoleOutput;
-        consoleOutput.innerHTML += '<br/><b>Event:</b> ' + event;
+        consoleOutput.innerHTML += '<br/>' + text;
         consoleOutput.scrollTop = consoleOutput.scrollHeight;
+    },
+
+    receivedEvent: function (event) {
+        this.log('<b>Event:</b> ' + event);
     },
 
 
@@ -90,7 +94,7 @@ var app = {
             self.receivedEvent('rewardedVideoEnded');
         });
 
-        window.addEventListener("rewardedVideoOpened", function () {
+        window.addEventListener('rewardedVideoOpened', function () {
             self.receivedEvent('rewardedVideoOpened');
         });
 
@@ -204,7 +208,7 @@ var app = {
     initializeIronsource: function () {
         var self = this;
         IronSourceAds.init({
-            appKey: 'ENTER YOUR KEY HERE',
+            appKey: '685af35d',
             onSuccess: function () {
                 self.receivedEvent('Initialized');
                 IronSourceAds.validateIntegration();
