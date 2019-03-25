@@ -208,7 +208,7 @@ var app = {
     initializeIronsource: function () {
         var self = this;
         IronSourceAds.init({
-            appKey: '685af35d',
+            appKey: '685b2ce5',
             onSuccess: function () {
                 self.receivedEvent('Initialized');
                 IronSourceAds.validateIntegration();
